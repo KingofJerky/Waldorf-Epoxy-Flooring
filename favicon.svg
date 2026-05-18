@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Navy background square with rounded corners -->
+  <rect width="32" height="32" rx="6" fill="#1a2d4f"/>
+  
+  <!-- Floor surface (gold parallelogram) -->
+  <polygon points="4,22 16,14 28,22 16,30" fill="#c8972a"/>
+  
+  <!-- Floor grid lines -->
+  <line x1="4" y1="22" x2="28" y2="22" stroke="#1a2d4f" stroke-width="0.8" opacity="0.5"/>
+  <line x1="16" y1="14" x2="16" y2="30" stroke="#1a2d4f" stroke-width="0.8" opacity="0.5"/>
+  
+  <!-- Shine/gloss sparkle top right of floor -->
+  <polygon points="22,10 23.2,13 26,13 23.8,14.8 24.6,17.5 22,15.8 19.4,17.5 20.2,14.8 18,13 20.8,13" fill="white" opacity="0.9"/>
+</svg>
